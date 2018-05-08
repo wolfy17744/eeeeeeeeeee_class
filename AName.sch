@@ -10746,14 +10746,14 @@ Changed DIP package to have round (not oval) pin pads
 <wire x1="22.86" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="53.34" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <junction x="22.86" y="53.34"/>
-<pinref part="IC1" gate="A" pin="THR"/>
-<wire x1="58.42" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="43.18" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="20.32" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
-<junction x="63.5" y="20.32"/>
+<wire x1="15.24" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="THR"/>
+<wire x1="60.96" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="43.18" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<junction x="60.96" y="20.32"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -10832,6 +10832,20 @@ Changed DIP package to have round (not oval) pin pads
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,38.1,38.1,IC1,GND,0,,,"/>
+<approved hash="104,1,58.42,38.1,IC1,V+,VCC,,,"/>
+<approved hash="112,1,88.9,67.31,,,,,,"/>
+<approved hash="113,1,23.9553,29.21,C1,,,,,"/>
+<approved hash="113,1,29.0353,39.37,C2,,,,,"/>
+<approved hash="113,1,70.0303,30.48,R1,,,,,"/>
+<approved hash="113,1,87.8103,25.4,R2,,,,,"/>
+<approved hash="113,1,87.8103,63.5,R3,,,,,"/>
+<approved hash="113,1,70.0303,63.5,R4,,,,,"/>
+<approved hash="113,1,89.2217,69.85,LED1,,,,,"/>
+<approved hash="113,1,89.2217,39.37,LED2,,,,,"/>
+<approved hash="113,1,106.022,43.18,G1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
